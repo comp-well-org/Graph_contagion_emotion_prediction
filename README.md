@@ -10,3 +10,5 @@ Each csv contains a pandas dataframe with two columns: us_list and A_msg/A_call.
 1- '*GEDD.ipynb*' runs the Graph Extraction for Dynamic Distribution algorithm. It processes the Graph data files and stores new graphs in Graph_Folder.
 
 2- '*Multimodal_data_extractor.ipynb*' extracts multi-modal sensing data based on graph networks and specified sequence length and stores it in the folder 'extracted_data'. The main loop for training and testing the model requires the data in the format as produced by the extractor.
+
+3- '*Model_training_testing.ipynb*' is the main notebook that does bootstrapping training and testing of the proposed and benchmarks models and saves the dataframe containing centrality metrics, true, and predicted labels for all users in the test set in the Results folder.
