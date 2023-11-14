@@ -2,7 +2,7 @@
 To protect study participants' privacy and consent and since some of the participants did not consent to sharing their data with the third-party researchers, data has been deidentified. Furthermore, data has been transformed in a way that an individual participant's data can not be identified. This process can be reversed and data can be used to reproduce to the results presented in this work or for developing new machine learning solutions through standardization of data. Please refer to the standardization process reported in the paper.
 The sensing and graph data is available in the Dataset folder. 
 
-The feature data is in the '*feature_data.csv*'. Each row indictaes a sample for a given user represented by user_id. There are multiple samples for each user taken at different timestamps. The 3rd and 4th columns of this file contains the labels for happiness and stress respectively.
+The feature data is in the '*feature_data.csv*'. Each row indicates a sample for a given user represented by user_id. There are multiple samples for each user taken at different timestamps. The 3rd and 4th columns of this file contains the labels for happiness and stress respectively.
 
 The Graph Data folder contains two csv files. '*call_graph.csv*' and '*sms_graph.csv*' contain call and sms graph data respectively. 
 Each csv contains a pandas dataframe with two columns: us_list and A_msg/A_call. The usr_list is an array of users present in that cohort. The corresponding A_msg/A_call is the adjacency matrix of the graph for those users.
