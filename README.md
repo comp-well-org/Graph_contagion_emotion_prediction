@@ -21,7 +21,7 @@ The code to use the proposed model is available in the Code folder. It contains 
 3- '*Model_training_testing.ipynb*' is the main notebook that does bootstrapping training and testing of the proposed and benchmarks models and saves the dataframe containing centrality metrics, true, and predicted labels for all users in the test set in the Results folder.
 
 # Citation
-If you find this work is relevant with your research, please feel free to cite our work!
+If you find this work is relevant to your research, please feel free to cite our work!
 
 
   
