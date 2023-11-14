@@ -1,3 +1,6 @@
+Khalid, M., Sano, A. Exploiting social graph networks for emotion prediction. Sci Rep 13, 6069 (2023). https://doi.org/10.1038/s41598-023-32825-9
+
+
 # Dataset Description
 To protect study participants' privacy and consent and since some of the participants did not consent to sharing their data with the third-party researchers, data has been deidentified. Furthermore, data has been transformed in a way that an individual participant's data can not be identified. This process can be reversed and data can be used to reproduce to the results presented in this work or for developing new machine learning solutions through standardization of data. Please refer to the standardization process reported in the [paper](https://www.nature.com/articles/s41598-023-32825-9). The sensing and graph data is available in the Dataset folder. 
 
