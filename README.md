@@ -1,6 +1,5 @@
 # Dataset Description
-To protect study participants' privacy and consent and since some of the participants did not consent to sharing their data with the third-party researchers, data has been deidentified. Furthermore, data has been transformed in a way that an individual participant's data can not be identified. This process can be reversed and data can be used to reproduce to the results presented in this work or for developing new machine learning solutions through standardization of data. Please refer to the standardization process reported in the paper.
-The sensing and graph data is available in the Dataset folder. 
+To protect study participants' privacy and consent and since some of the participants did not consent to sharing their data with the third-party researchers, data has been deidentified. Furthermore, data has been transformed in a way that an individual participant's data can not be identified. This process can be reversed and data can be used to reproduce to the results presented in this work or for developing new machine learning solutions through standardization of data. Please refer to the standardization process reported in the [paper](https://www.nature.com/articles/s41598-023-32825-9). The sensing and graph data is available in the Dataset folder. 
 
 The feature data is in the '*feature_data.csv*'. Each row indicates a sample for a given user represented by user_id. There are multiple samples for each user taken at different timestamps. The 3rd and 4th columns of this file contains the labels for happiness and stress respectively.
 
@@ -17,3 +16,20 @@ The code to use the proposed model is available in the Code folder. It contains 
 2- '*Multimodal_data_extractor.ipynb*' extracts multi-modal sensing data based on graph networks and specified sequence length and stores it in the folder 'extracted_data'. The main loop for training and testing the model requires the data in the format as produced by the extractor.
 
 3- '*Model_training_testing.ipynb*' is the main notebook that does bootstrapping training and testing of the proposed and benchmarks models and saves the dataframe containing centrality metrics, true, and predicted labels for all users in the test set in the Results folder.
+
+# Citation
+If you find this work is relevant with your research, please feel free to cite our work!
+
+
+  
+  ```plaintext
+  @article{khalid2023exploiting,
+    title={Exploiting social graph networks for emotion prediction},
+    author={Khalid, Maryam and Sano, Akane},
+    journal={Scientific Reports},
+    volume={13},
+    number={1},
+    pages={6069},
+    year={2023},
+    publisher={Nature Publishing Group UK London}
+  }
