@@ -1,4 +1,4 @@
-Khalid, M., Sano, A. Exploiting social graph networks for emotion prediction. Sci Rep 13, 6069 (2023). https://doi.org/10.1038/s41598-023-32825-9
+Khalid, M., Sano, A. Exploiting social graph networks for emotion prediction. Scientific Reports 13, 6069 (2023). https://doi.org/10.1038/s41598-023-32825-9
 
 
 # Dataset Description
