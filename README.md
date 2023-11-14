@@ -1,4 +1,5 @@
 # Dataset Description
+To protect study participants' privacy and consent and since some of the participants did not consent to sharing their data with the third-party researchers, data has been deidentified. Furthermore, data has been transformed in a way that an individual participant's data can not be identified. This process can be reversed and data can be used to reproduce to the results presented in this work or for developing new machine learning solutions through standardization of data. Please refer to the standardization process reported in the paper.
 The sensing and graph data is available in the Dataset folder. 
 
 The feature data is in the '*feature_data.csv*'. Each row indictaes a sample for a given user represented by user_id. There are multiple samples for each user taken at different timestamps. The 3rd and 4th columns of this file contains the labels for happiness and stress respectively.
